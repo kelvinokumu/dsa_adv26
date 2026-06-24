@@ -14,6 +14,7 @@ def quickSort(unsorted_list):
             left.append(number)
         else:
             right.append(number)
+    print(f" Pivot {pivot}")
     print(f"Left  {left}")
     print(f"Right {right}")
 

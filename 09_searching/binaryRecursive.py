@@ -1,7 +1,5 @@
 import random
 
-class getValues():
-    pass
 
 def binaryRecursion(mlist, target, low, high):
     if low > high:

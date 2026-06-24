@@ -1,6 +1,5 @@
 import random
 
-
 def mergeSort(unsorted_list):
     if len(unsorted_list) <= 1:
         return unsorted_list
@@ -18,10 +17,10 @@ def merge(left, right):
     while  i < len(left) and j < len(right):
         if left[i] < right[j]:
             merged.append(left[i])
-            i = i + 1
+            # i = i + 1
         else:
             merged.append(right[j])
-            j = j + 1
+            # j = j + 1
 
     merged.extend(left[i:])
     merged.extend(right[j:])
